@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		74B9909622AE10DE002B42A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9909522AE10DE002B42A9 /* AppDelegate.swift */; };
-		74B9909822AE10DE002B42A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9909722AE10DE002B42A9 /* ViewController.swift */; };
 		74B9909B22AE10DE002B42A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B9909922AE10DE002B42A9 /* Main.storyboard */; };
 		74B9909E22AE10DE002B42A9 /* Memo03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74B9909C22AE10DE002B42A9 /* Memo03.xcdatamodeld */; };
 		74B990A022AE10E0002B42A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B9909F22AE10E0002B42A9 /* Assets.xcassets */; };
 		74B990A322AE10E0002B42A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B990A122AE10E0002B42A9 /* LaunchScreen.storyboard */; };
+		74B990AC22AE1343002B42A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990AB22AE1343002B42A9 /* Model.swift */; };
+		74B990AE22AE14F5002B42A9 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */; };
+		74B990B022AE1A3B002B42A9 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */; };
+		74B990B222AE1D11002B42A9 /* DetiailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990B122AE1D11002B42A9 /* DetiailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74B9909222AE10DE002B42A9 /* Memo03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B9909522AE10DE002B42A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74B9909722AE10DE002B42A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74B9909A22AE10DE002B42A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B9909D22AE10DE002B42A9 /* Memo03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memo03.xcdatamodel; sourceTree = "<group>"; };
 		74B9909F22AE10E0002B42A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B990A222AE10E0002B42A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B990A422AE10E0002B42A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B990AB22AE1343002B42A9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		74B990B122AE1D11002B42A9 /* DetiailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetiailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		74B9909422AE10DE002B42A9 /* Memo03 */ = {
 			isa = PBXGroup;
 			children = (
+				74B990AA22AE1307002B42A9 /* Model */,
 				74B9909522AE10DE002B42A9 /* AppDelegate.swift */,
-				74B9909722AE10DE002B42A9 /* ViewController.swift */,
 				74B9909922AE10DE002B42A9 /* Main.storyboard */,
 				74B9909F22AE10E0002B42A9 /* Assets.xcassets */,
 				74B990A122AE10E0002B42A9 /* LaunchScreen.storyboard */,
 				74B990A422AE10E0002B42A9 /* Info.plist */,
 				74B9909C22AE10DE002B42A9 /* Memo03.xcdatamodeld */,
+				74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */,
+				74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */,
+				74B990B122AE1D11002B42A9 /* DetiailViewController.swift */,
 			);
 			path = Memo03;
+			sourceTree = "<group>";
+		};
+		74B990AA22AE1307002B42A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74B990AB22AE1343002B42A9 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B9909822AE10DE002B42A9 /* ViewController.swift in Sources */,
+				74B990B022AE1A3B002B42A9 /* ComposeViewController.swift in Sources */,
+				74B990AC22AE1343002B42A9 /* Model.swift in Sources */,
 				74B9909E22AE10DE002B42A9 /* Memo03.xcdatamodeld in Sources */,
+				74B990B222AE1D11002B42A9 /* DetiailViewController.swift in Sources */,
 				74B9909622AE10DE002B42A9 /* AppDelegate.swift in Sources */,
+				74B990AE22AE14F5002B42A9 /* MemoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Memo03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Memo03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
