@@ -16,6 +16,7 @@
 		74B990AE22AE14F5002B42A9 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */; };
 		74B990B022AE1A3B002B42A9 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */; };
 		74B990B222AE1D11002B42A9 /* DetiailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990B122AE1D11002B42A9 /* DetiailViewController.swift */; };
+		74B990B422AF81CA002B42A9 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B990B322AF81CA002B42A9 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		74B990B122AE1D11002B42A9 /* DetiailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetiailViewController.swift; sourceTree = "<group>"; };
+		74B990B322AF81CA002B42A9 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				74B990AD22AE14F5002B42A9 /* MemoListTableViewController.swift */,
 				74B990AF22AE1A3B002B42A9 /* ComposeViewController.swift */,
 				74B990B122AE1D11002B42A9 /* DetiailViewController.swift */,
+				74B990B322AF81CA002B42A9 /* DateManager.swift */,
 			);
 			path = Memo03;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B990B422AF81CA002B42A9 /* DateManager.swift in Sources */,
 				74B990B022AE1A3B002B42A9 /* ComposeViewController.swift in Sources */,
 				74B990AC22AE1343002B42A9 /* Model.swift in Sources */,
 				74B9909E22AE10DE002B42A9 /* Memo03.xcdatamodeld in Sources */,
